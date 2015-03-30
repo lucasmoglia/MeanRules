@@ -1,0 +1,20 @@
+{ "//": "Unbekannt.-", 
+  "//": "That’s it! Now our application will know", 
+  "//": "#Since Express 4.0, body-parser and method-override",
+  "//": "#are their own modules",
+  "//": "#which is why we have to include them here.",
+  "//": "Express is a Node.js web application framework that will help us create our application.",
+  "//": "Mongoose is a MongoDB ORM that will help us communicate with our MongoDB database.",
+  "//": "To understand all about the key 'scripts' please visit this inf. link :) -> https://docs.npmjs.com/misc/scripts",
+  
+  "scripts": { "postinstall": "bower install" },
+  "name": "starter-node-angular",
+  "main": "server.js",
+  "dependencies": {
+    "express" : "~4.5.1", 
+    "mongoose" : "~3.8.0", 
+    "body-parser" : "~1.4.2",
+    "method-override" : "~2.0.2",
+    "bower" : "latest"
+  }
+}

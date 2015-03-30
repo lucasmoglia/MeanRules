@@ -1,0 +1,1 @@
+angular.module('MeanRules', ['ngRoute', 'appRoutes', 'mainController', 'heroController', 'heroService']);
