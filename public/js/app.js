@@ -1,1 +1,1 @@
-angular.module('MeanRules', ['ngRoute', 'appRoutes', 'mainController', 'heroController', 'heroService']);
+angular.module('MeanRules', ['ngRoute', 'appRoutes', 'mainController', 'heroController', 'fightController', 'heroService']);
